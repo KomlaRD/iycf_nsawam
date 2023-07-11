@@ -1,0 +1,17 @@
+---
+title: "Data wrangling"
+author: "Eric Anku"
+format: html
+---
+
+```{r load-packages}
+pacman::p_load(
+  tidyverse,
+  rio,
+  finalfit,
+  here,
+  gtsummary,
+  skimr
+)
+```
+
